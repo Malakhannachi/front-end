@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: oswald;
+    
+
+}
+header{
+    background-image: url(image/h5-parallax-img-2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    cursor: pointer;   
+    width: 100%;
+    height: 70px;
+    background-color: #0e0e0e;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    
+}
+nav :hover{
+    transform: scale(1);
+}
+h3{
+    color: white;
+    margin-left: 15px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+ul li{
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+ul li :hover{
+
+    color:#beb8b8 ;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.logo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#traditions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color:#c59d5f ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+ .box{
+    flex: 0 0 calc(50%);    
+ }
+#traditions .box h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    
+}
+ .box h5{    
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    color: black; 
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.6;
+}
+#traditions .box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.5;
+    font-style:times new roman;
+}
+#traditions .box button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: #c59d5f;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.box2{
+    background-image: url(image/h5-el-holder-img-1-1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 calc(50%);        
+}
+.box3{
+    background-image: url(image/h5-el-holder-img-2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 calc(50%);        
+}
+.box4{
+    background-image: url(image/h5-el-holder-img-4.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 calc(50%);        
+}
+#services{ 
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.image{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+.image :hover{
+    transform: scale(1.1);
+}
+.image img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+.icone1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #0e0e0e;
+}
